@@ -404,7 +404,8 @@ textarea {
 }
 
 .check-icon {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 
   width: 16px;
   height: 15px;
@@ -666,7 +667,8 @@ img {
 
 .button,
 .filter-button,
-.modal-button {
+.modal-button,
+.submit-button {
   cursor: pointer;
 }
 .button.primary {
