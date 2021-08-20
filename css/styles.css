@@ -245,7 +245,7 @@ ul {
 
   width: 528px;
 
-  padding: 15px;
+  padding: 40px;
 
   background-color: #fff;
 
@@ -257,14 +257,12 @@ ul {
 
 .button-close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 8px;
 
   width: 30px;
   height: 30px;
 
-  margin-top: 8px;
-  margin-right: 8px;
   padding: 6px;
 
   border: 1px solid #0000001a;
@@ -290,8 +288,6 @@ textarea {
   resize: none;
 }
 .form-title {
-  margin-top: 40px;
-
   margin-bottom: 12px;
 
   font-weight: 700;
@@ -300,8 +296,6 @@ textarea {
   text-align: center;
 }
 .form {
-  max-width: 448px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -434,7 +428,7 @@ textarea {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
@@ -969,7 +963,7 @@ img {
 
 .footer-adress {
   display: flex;
-  justify-content: baseline;
+  align-items: baseline;
 }
 
 /* footer form */
@@ -1005,11 +999,6 @@ img {
   line-height: 1.25;
 
   color: 255, 255, 255, 0.6;
-}
-
-.button-icon {
-  display: flex;
-  align-items: center;
 }
 
 .icon-send {
